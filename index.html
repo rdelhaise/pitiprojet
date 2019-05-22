@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Title</title>
+
+</head>
+<body>
+<div id="control">
+    <button id="choice">Choisir sa src</button>
+    <span id="orientation">
+        <span>paysage</span>
+        <input type="checkbox" checked id="checkbox"/>
+    </span>
+    <div id="formSrc" style="display:none;">
+        <input type="text" id="srcImg"/>
+        <button id="submitSrc">Submit</button>
+    </div>
+</div>
+<div id="display">
+    <img src="" class="img"/>
+</div>
+<div id="info">
+    <div> original : <span id="original"></span> px</div>
+    <div> screen : <span id="screen"></span> px</div>
+</div>
+<script src="scripts/jquery-3.4.1.min.js" type="text/javascript"></script>
+<script src="scripts/images.js" type="text/javascript"></script>
+
+</body>
+</html>
